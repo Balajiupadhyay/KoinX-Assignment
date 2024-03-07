@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <nav className="p-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-[100%]  flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-8 mr-4" />
         </div>
