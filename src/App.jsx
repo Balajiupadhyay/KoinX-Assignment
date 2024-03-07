@@ -8,7 +8,7 @@ import Team from './components/Team/Team'
 import YouMayLike from './components/Chart carousel/YouMayLike'
 import TrendingCoins from './components/Chart carousel/TrendingCoins'
 import SideBar from './components/SideBar/SideBar'
-
+import BreadCrums from './components/BreadCrum/BreadCrums'
 import './App.css'
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <>
       <Header/>
       <div className='p-4 bg-zinc-200'>
+        <BreadCrums/>
         <BitcoinChart/>
         <Performance/>
         <Sentiment/>
