@@ -1,4 +1,6 @@
 import MiniChart from '../Chart/MiniChart';
+import { MdOutlineNavigateNext } from "react-icons/md";
+import { MdNavigateBefore } from "react-icons/md";
 import { useState, useEffect } from 'react';
 
 function YouMayLike() {
@@ -40,6 +42,9 @@ function YouMayLike() {
                 </div>
                 <div className='flex justify-center items-end pb-4'>
                     <MiniChart symbol="BINANCE:BNBUSD" chartColor="rgba(0, 255, 0, 1)" />
+                </div>
+                <div className='absolute top-[40%] left-[-5px] bg-zinc-50 p-2 shadow-inner rounded-full'>
+                    <MdNavigateBefore />                
                 </div>
             </div>
 
@@ -104,6 +109,9 @@ function YouMayLike() {
                 </div>
                 <div className='flex justify-center items-end pb-4'>
                     <MiniChart symbol="COINBASE:DOTUSD" chartColor="rgba(255, 0, 0, 1)"/>
+                </div>
+                <div className='absolute top-[40%] right-[-5px] bg-zinc-50 p-2 shadow-inner rounded-full'>
+                    <MdOutlineNavigateNext />
                 </div>
             </div>
           </>
