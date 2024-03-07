@@ -7,6 +7,8 @@ import Tokenomics from './components/Tokenomics/Tokenomics'
 import Team from './components/Team/Team'
 import YouMayLike from './components/Chart carousel/YouMayLike'
 import TrendingCoins from './components/Chart carousel/TrendingCoins'
+import SideBar from './components/SideBar/SideBar'
+
 import './App.css'
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
       </div> 
       <YouMayLike/>
       <TrendingCoins/>
+      <div className='p-4 lg:hidden'>
+        <SideBar/>
+      </div>
     </>
   )
 }
