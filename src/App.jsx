@@ -4,6 +4,7 @@ import Performance from './components/Performance/Performance'
 import Sentiment from './components/Sentiment/Sentiment'
 import AboutBitcoin from './components/AboutBitcoin/AboutBitcoin'
 import Tokenomics from './components/Tokenomics/Tokenomics'
+import Team from './components/Team/Team'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Sentiment/>
         <AboutBitcoin/>
         <Tokenomics/>
+        <Team/>
       </div> 
     </>
   )
