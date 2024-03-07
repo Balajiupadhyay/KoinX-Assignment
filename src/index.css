@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
+.gradient1{
+  background-image: linear-gradient(to right bottom, #6fde85, #00c7b1, #00aae2, #0083f7, #284bd5);
+}
+
+.gradient2{
+  background-image: linear-gradient(to right bottom, #c78925, #d3792e, #dc673c, #e0564c, #df465f);
+}
+
+.gradient
+{
+  background-image: linear-gradient(to right, #ca3a4d, #df5741, #ed7633, #f39824, #f1ba1a, #e3c813, #d2d51b, #bee22c, #a2dd2d, #85d830, #64d237, #38cc3e);
+}
+
+.gradientGetStarted
+{
+  background-image: linear-gradient(to right bottom, #015fed, #015fed, #015fec, #015fec, #015feb);
+}
