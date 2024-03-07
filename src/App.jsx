@@ -5,6 +5,8 @@ import Sentiment from './components/Sentiment/Sentiment'
 import AboutBitcoin from './components/AboutBitcoin/AboutBitcoin'
 import Tokenomics from './components/Tokenomics/Tokenomics'
 import Team from './components/Team/Team'
+import YouMayLike from './components/Chart carousel/YouMayLike'
+import TrendingCoins from './components/Chart carousel/TrendingCoins'
 import './App.css'
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Tokenomics/>
         <Team/>
       </div> 
+      <YouMayLike/>
+      <TrendingCoins/>
     </>
   )
 }
