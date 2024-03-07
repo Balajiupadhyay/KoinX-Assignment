@@ -2,6 +2,7 @@ import Header from './components/Header/Header'
 import BitcoinChart from './components/BitcoinChart/BitcoinChart'
 import Performance from './components/Performance/Performance'
 import Sentiment from './components/Sentiment/Sentiment'
+import AboutBitcoin from './components/AboutBitcoin/AboutBitcoin'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <BitcoinChart/>
         <Performance/>
         <Sentiment/>
+        <AboutBitcoin/>
       </div> 
     </>
   )
